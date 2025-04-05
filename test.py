@@ -8,7 +8,7 @@ import tensorflow as tf
 tf.config.set_visible_devices([], 'GPU')
 
 # Tải mô hình đã được huấn luyện
-model = load_model('./model.h5')
+model = load_model('D:\XLA\trai_cay/model.h5')
 
 # Các lớp hoa quả
 classes = { 
